@@ -1,4 +1,4 @@
-// calc.js
+    // calc.js
 // measure calculations
 
 var _ = require('underscore');
@@ -34,15 +34,15 @@ var measure = function (latlngs) {
       }
     },
     length: {
-      feet: path.distance({
+      m: path.distance({
         units: 'meters'
       }),
-      miles: path.distance({
+      km: path.distance({
         units: 'meters'
       })
     },
     area: {
-      acres: path.area({
+      sqm: path.area({
         units: 'sqmeters'
       })
     }

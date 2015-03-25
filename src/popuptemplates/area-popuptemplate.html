@@ -1,6 +1,6 @@
 <h3>Area Measurement</h3>
-<p><%= humanize.numberFormat(model.area.acres, 2) %> Acres</p>
-<p><%= humanize.numberFormat(model.length.feet, 0) %> Feet (<%= humanize.numberFormat(model.length.miles, 2) %> Miles) Perimeter</p>
+<p><%= humanize.numberFormat(model.area.sqm, 2) %>m<sup>2</sup></p>
+<p><%= humanize.numberFormat(model.length.m, 0) %>m (<%= humanize.numberFormat(model.length.m / 1000.0, 2) %>km) perimeter</p>
 <ul class="tasks">
   <li><a href="#" class="js-zoomto zoomto">Center on this Area</a></li>
   <li><a href="#" class="js-deletemarkup deletemarkup">Delete</a></li>
