@@ -35,15 +35,15 @@ var measure = function (latlngs) {
     },
     length: {
       feet: path.distance({
-        units: 'feet'
+        units: 'meters'
       }),
       miles: path.distance({
-        units: 'miles'
+        units: 'meters'
       })
     },
     area: {
       acres: path.area({
-        units: 'acres'
+        units: 'sqmeters'
       })
     }
   };
